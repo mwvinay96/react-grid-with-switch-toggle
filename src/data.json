@@ -1,0 +1,252 @@
+{
+    "notifications": {
+        "categories": [
+            {
+                "categoryId": 1,
+                "category": "Benefits",
+                "description": "Benefits",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 1,
+                        "subcategory": "Benefits available",
+                        "isActive": true,
+                        "isEditable": true
+                    }
+                ]
+            },
+            {
+                "categoryId": 2,
+                "category": "Credentialing",
+                "description": "Credentialing",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 4,
+                        "subcategory": "Checklist available",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 5,
+                        "subcategory": "Checklist item rejected",
+                        "isActive": true,
+                        "isEditable": false
+                    },
+                    {
+                        "subcategoryId": 7,
+                        "subcategory": "Checklist item past due",
+                        "isActive": true,
+                        "isEditable": false
+                    },
+                    {
+                        "subcategoryId": 8,
+                        "subcategory": "Checklist status update - 17 day credential close",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 11,
+                        "subcategory": "Professional license is expiring",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 12,
+                        "subcategory": "AHA certification is expiring soon",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 13,
+                        "subcategory": "Joint Commission Regulatory exam is expiring soon",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 14,
+                        "subcategory": "Drug screen is expiring soon",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 16,
+                        "subcategory": "Tuberculosis screening is expiring soon",
+                        "isActive": true,
+                        "isEditable": true
+                    }
+                ]
+            },
+            {
+                "categoryId": 3,
+                "category": "Booked Assignment",
+                "description": "Booked Assignment",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 18,
+                        "subcategory": "Next assignment is booked",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 19,
+                        "subcategory": "Contract available and ready",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 20,
+                        "subcategory": "Assignment postponement",
+                        "isActive": true,
+                        "isEditable": false
+                    },
+                    {
+                        "subcategoryId": 23,
+                        "subcategory": "Assignment starting soon",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 26,
+                        "subcategory": "Customer support instructions",
+                        "isActive": true,
+                        "isEditable": false
+                    },
+                    {
+                        "subcategoryId": 27,
+                        "subcategory": "Clinical manager assigned",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 49,
+                        "subcategory": "Delight Message - 1st Assignment Booking",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 50,
+                        "subcategory": "Delight Message - 1st Assignment Starting",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 51,
+                        "subcategory": "Delight Message - 1st Assignment Completed",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 52,
+                        "subcategory": "Delight Message - Multiple Assignments Completed in Current Year",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 53,
+                        "subcategory": "Delight Message - First Assignment Started in Consecutive Years",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 54,
+                        "subcategory": "Delight Message - Lifetime Assignments completed",
+                        "isActive": true,
+                        "isEditable": true
+                    }
+                ]
+            },
+            {
+                "categoryId": 4,
+                "category": "Current Assignment",
+                "description": "Current Assignment",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 31,
+                        "subcategory": "Assignment end date - 14 days till completion",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 32,
+                        "subcategory": "Assignment end date - 6 weeks after end date",
+                        "isActive": true,
+                        "isEditable": true
+                    }
+                ]
+            },
+            {
+                "categoryId": 6,
+                "category": "Time and Pay",
+                "description": "Time and Pay",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 37,
+                        "subcategory": "Tax status notification",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 41,
+                        "subcategory": "Timesheet Due",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 42,
+                        "subcategory": "Timesheet Past Due",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 43,
+                        "subcategory": "Timesheet Approved",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 44,
+                        "subcategory": "Timesheet Rejected",
+                        "isActive": true,
+                        "isEditable": false
+                    }
+                ]
+            },
+            {
+                "categoryId": 7,
+                "category": "General",
+                "description": "General",
+                "isActive": true,
+                "subcategories": [
+                    {
+                        "subcategoryId": 40,
+                        "subcategory": "Survey Request",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 45,
+                        "subcategory": "Reimbursement Reminder - Before Assignment Start",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 46,
+                        "subcategory": "Reimbursement Reminder - Before Assignment End",
+                        "isActive": true,
+                        "isEditable": true
+                    },
+                    {
+                        "subcategoryId": 55,
+                        "subcategory": "Tax Home Declaration Update After 365 Days",
+                        "isActive": true,
+                        "isEditable": true
+                    }
+                ]
+            }
+        ]
+    }
+}
