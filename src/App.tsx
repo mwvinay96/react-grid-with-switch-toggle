@@ -65,8 +65,9 @@ function App() {
       }
     };
 
-  const toggleCategory = (categoryId: number) => {
+  const toggleCategory = (e: any, categoryId: number) => {
     toast(`TOGGLE on category with id: ${categoryId}`);
+    e.stopPropagation();
   };
 
   const category = data;
@@ -93,12 +94,10 @@ function App() {
                   }}
                 >
                   <Grid item xs={10}>
-                    <Typography onClick={(e) => handleChange(c.categoryId)}>
-                      {c.description}
-                    </Typography>
+                    <Typography>{c.description}</Typography>
                   </Grid>
                   <Grid item xs={2}>
-                    <Switch onClick={(e) => toggleCategory(c.categoryId)} />
+                    <Switch onClick={(e) => toggleCategory(e, c.categoryId)} />
                   </Grid>
                 </Grid>
               </AccordionSummary>
