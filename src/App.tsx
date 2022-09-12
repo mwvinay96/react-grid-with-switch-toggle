@@ -11,6 +11,8 @@ import MuiAccordionSummary, {
 } from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -27,9 +29,7 @@ const Accordion = styled((props: AccordionProps) => (
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
   <MuiAccordionSummary
     expandIcon={
-      <ArrowForwardIosSharpIcon
-        sx={{ pl: "20px", fontSize: "1rem", color: "skyblue" }}
-      />
+      <ArrowForwardIosSharpIcon sx={{ fontSize: "1rem", color: "skyblue" }} />
     }
     {...props}
   />
@@ -58,12 +58,16 @@ function App() {
   const handleChange =
     (categoryId: number) =>
     (event: React.SyntheticEvent, newExpanded: boolean) => {
-      console.log("clicked on category: " + categoryId);
+      toast(`clicked on category with id: ${categoryId}`);
       if (categoryId === expanded) setExpanded(0);
       else {
         setExpanded(categoryId);
       }
     };
+
+  const toggleCategory = (categoryId: number) => {
+    toast(`TOGGLE on category with id: ${categoryId}`);
+  };
 
   const category = data;
   return (
@@ -94,7 +98,7 @@ function App() {
                     </Typography>
                   </Grid>
                   <Grid item xs={2}>
-                    <Switch />
+                    <Switch onClick={(e) => toggleCategory(c.categoryId)} />
                   </Grid>
                 </Grid>
               </AccordionSummary>
@@ -116,6 +120,7 @@ function App() {
           </Grid>
         ))}
       </Grid>
+      <ToastContainer autoClose={1000} />
     </div>
   );
 }
